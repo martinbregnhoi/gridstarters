@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>grid basis</title>
+ <style>
+    main{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-gap: 5px;
+
+        width:80vw;
+        max-width: 1200px;
+        margin: 0 auto;
+
+    }
+     div{
+         border:1px solid #333;
+         min-height: 100px;
+       display:flex;
+         flex-direction: column;
+        justify-content:center;
+         text-align: center;
+     }
+   </style>
+</head>
+<body>
+    <main>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </main>
+</body>
+</html>
