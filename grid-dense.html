@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Git Kursus</title>
+    <title>Grid Dense</title>
     <style>
         body {
             background: #cecece;
@@ -12,50 +12,39 @@
         }
 
         main {
-            display: grid;
-            grid-auto-flow: dense;
-            grid-gap: 2em;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            grid-auto-rows: 1fr;
-            margin: 0 auto;
-            max-width: 1000px;
+       
         }
 
         article {
-            min-height: 100px;
-            background: #fff;
-            box-shadow: 0px 10px 15px 5px rgba(0, 0, 0, 0.2);
-            display: flex;
-            align-items: center;
-            justify-content: center;
+
         }
 
 
 
         @media screen and (min-width: 700px) {
             main {
-                grid-template-columns: repeat(3, 1fr);
+    
 
             }
 
             .article-right {
-                grid-column: 2 / span 2;
+              
 
             }
 
             .article-left {
-                grid-column: 1 / span 2;
+               
             }
 
             .article-high {
-                grid-row: span 2;
+            
             }
         }
     </style>
 </head>
 
 <body>
-    <h1>Hello Grid</h1>
+    <h1>Masonry Grid</h1>
     <main>
         <article>1</article>
         <article>2</article>
